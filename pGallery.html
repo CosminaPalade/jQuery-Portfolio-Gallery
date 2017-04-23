@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photo Gallery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/pGallery.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+
+    </head>
+    <body>
+		<header>
+			<div class="container-header clearing">
+				<h1 class="logo">P-GALLERY</h1>
+				<nav>
+					<ul class="clearing" id="groups">
+						<li><a href="#">All Projects</a></li>
+						<li><a href="#">Design</a></li>
+						<li><a href="#">Programming</a></li>
+						<li><a href="#">CMS</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="tagline">
+				<h1>View Our Work</h1>
+		</section>
+		<section class="main-section">
+			<div class="img-container">
+				<div class="group-title">
+					<h3></h3>
+				</div>
+				<ul class="gallery clearing">
+					<li class="design" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, nihil.">
+						<a href="img/web1.jpg" data-lightbox="projects" data-title="Project 1">
+							<img src="img/web1.jpg" alt="Web 1">
+						</a>
+					</li>
+					<li class="programming" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, possimus.">
+						<a href="img/web2.jpg" data-lightbox="projects" data-title="Project 2">
+							<img src="img/web2.jpg" alt="Web 2">
+						</a>
+					</li>
+					<li class="design" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, aut.">
+						<a href="img/web3.jpg" data-lightbox="projects" data-title="Project 3">
+							<img src="img/web3.jpg" alt="Web 3">
+						</a>
+					</li>
+					<li class="design" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, placeat.">
+						<a href="img/web4.jpg" data-lightbox="projects" data-title="Project 4">
+							<img src="img/web4.jpg" alt="Web 4">
+						</a>
+					</li>
+					<li class="design" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, vel.">
+						<a href="img/web5.jpg" data-lightbox="projects" data-title="Project 5">
+							<img src="img/web5.jpg" alt="Web 5">
+						</a>
+					</li>
+					<li class="programming" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, adipisci.">
+						<a href="img/web6.jpg" data-lightbox="projects" data-title="Project 6">
+							<img src="img/web6.jpg" alt="Web 6">
+						</a>
+					</li>
+					<li class="programming" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, enim.">
+						<a href="img/web7.jpg" data-lightbox="projects" data-title="Project 7">
+							<img src="img/web7.jpg" alt="Web 7">
+						</a>
+					</li>
+					<li class="cms" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, qui.">
+						<a href="img/web8.jpg" data-lightbox="projects" data-title="Project 8">
+							<img src="img/web8.jpg" alt="Web 8">
+						</a>
+					</li>
+					<li class="cms" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, ducimus.">
+						<a href="img/web9.jpg" data-lightbox="projects" data-title="Project 9">
+							<img src="img/web9.jpg" alt="Web 9">
+						</a>
+					</li>
+					<li class="programming" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, enim!">
+						<a href="img/web10.jpg" data-lightbox="projects" data-title="Project 10">
+							<img src="img/web10.jpg" alt="Web 10">
+						</a>
+					</li>
+					<li class="cms" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, inventore!">
+						<a href="img/web11.jpg" data-lightbox="projects" data-title="Project 11">
+							<img src="img/web11.jpg" alt="Web 11">
+						</a>
+					</li>
+					<li class="cms" data-title="Project" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, recusandae.">
+						<a href="img/web12.jpg" data-lightbox="projects" data-title="Project 12">
+							<img src="img/web12.jpg" alt="Web 12">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+        <footer>
+        	<p>@Copyright, all rights reserved 2017</p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="js/lightbox.js"></script>
+        <script type="text/javascript" src="js/pGallery.js"></script>
+
+        <script>
+       	
+       	lightbox.option({
+      		'resizeDuration': 200,
+      		'wrapAround': true
+    	})
+
+        </script>
+    </body>
+</html>
